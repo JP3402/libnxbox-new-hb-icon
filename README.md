@@ -28,6 +28,11 @@ If you want to play a xCloud title instead of Console streaming, you can use the
 * If you want to connect to your console outside of LAN and struggle to conneect, make sure that you can access your console on UDP port 9002 (port forwarding)
 * libnxbox.nro will create a debug.log file. So if anything goes haywire, the log might have a clue.
 
+## Authentication
+
+When you first launch the nro it will check to see if there is a token.dat file stored on the sd card (/switch/libnxbox/token.dat). If there is no such file. It will promt you to sign-in
+![Screenshot](./images/architecture.png)
+
 ## Architecture
 
 ```
