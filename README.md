@@ -137,3 +137,15 @@ By using this software, you acknowledge that:
 - You assume full responsibility for any consequences arising from its use.
 
 If you do not agree with these terms, **do not use this software**.
+
+## Acknowledgements
+
+LibNXBox builds on the work of several open-source projects and community efforts.
+
+- **[sepfy/libpeer](https://github.com/nicegram/nicepeer)** — WebRTC peer connection library.
+- **[xbox-xcloud-player](https://github.com/unknownskl/xbox-xcloud-player)** by unknownskl — Xbox Cloud Gaming protocol reference. The XInput wire format and GameStream protocol init sequence are based on this implementation.
+- **[Moonlight-Switch](https://github.com/XITRIX/Moonlight-Switch)** — Game streaming client for Nintendo Switch. YUV→RGB colorspace matrices taken from its GLVideoRenderer, and FFmpeg build configuration referenced for NVDEC integration.
+- **[averne's FFmpeg fork](https://github.com/averne/FFmpeg)** — FFmpeg with Tegra X1 NVDEC hardware acceleration (nvtegra hwaccel). Bundled static libraries provide hardware video decoding on Switch.
+- **[better-xcloud](https://github.com/redphx/better-xcloud)** by redphx — Xbox Cloud Gaming browser enhancements. Device info format and OS name resolution control logic derived from this project.
+- **[Team OpenXbox](https://openxbox.org/)** with special thanks to tuxuser for the xcloud-rs lib and their efforts to reverse engineer the Xbox backend systems.
+
