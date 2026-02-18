@@ -19,13 +19,22 @@ If you want to play a xCloud title instead of Console streaming, you can use the
 
 - Game Title - Will be the name of the NRO forwarder
 - Host IP - I just treat this as a dummy value to maintain compatibility with the moonlight nro forwarder. So just set 127.0.0.1 or some other IP addr.
-- AppID - this is where we select the xCloud title. So for example Kingdom Come: Deliverance, enter KINGDOMCOMEDELIVERANCE - Not sure what the best way to get this from. I used dev tools to find the request when starting the title from xbox.com/play
+- AppID - this is where we select the xCloud title. So for example Kingdom Come: Deliverance, enter ASSASSINSCREEDSHADOWS - Not sure what the best way to get this from. I used dev tools to find the request when starting the title from xbox.com/play
 
 Example of an NRO forwarder:
 
 ![Screenshot](./NSP_EX.png)
 
 Install the .NSP file and once you launch the game on the switch, that xCloud title should be launched. (xCloud title takes a little longer to launch in my experience, about 50 sec.)
+
+Some titleIds that I've seen:
+ASSASSINSCREEDSHADOWS
+KINGDOMCOMEDELIVERANCE
+ARCRAIDERS
+
+So might be that it's all caps and all special characters stripped. So Assassin's Creed: Shadows becomes ASSASSINSCREEDSHADOWS
+
+But the only way of knowing is to launch a title when dev-tools is open, with HAR checked. Look at the network tab and look for the titleId there
 
 ## Troubleshooting
 
