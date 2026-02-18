@@ -1,6 +1,6 @@
 # LibNXbox
 
-**Xbox GameStream client for Nintendo Switch** — stream games from your Xbox console to your Switch over LAN or WAN using WebRTC.
+**Xbox Cloud Streaming client for Nintendo Switch** — Stream from your console or xCloud to your Nintendo Switch
 
 ![Platform](https://img.shields.io/badge/platform-Nintendo%20Switch-e60012)
 ![Language](https://img.shields.io/badge/language-C99-blue)
