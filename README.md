@@ -8,13 +8,14 @@
 
 ## Overview
 
+## Important!
 Needs to run in title mode, will crash with applet mode.
-If you just run the NRO, it will ask you to sign in with Xbox using a device code at https://microsoft.com/link
 
-Once that is done, it will use the same logic as xbox.com/play to discover you Xbox, connect and start the stream.
-
+## Launching Home streaming (Stream from your own console)
+Just launch the .nro in title mode. It will discover your console, in the same way that xbox.com/play does.
 I have not tested what happends if you have more than one Xbox connected to your user. Not sure what will happend :) (The world won't burn, but we might struggle to choose the right xbox and stall the connect)
 
+## Launching xCloud titles
 If you want to play a xCloud title instead of Console streaming, you can use the NRO forwarder for the moonlight switch port: https://nsp-forwarder.vercel.app/moonlight
 
 - Game Title - Will be the name of the NRO forwarder
