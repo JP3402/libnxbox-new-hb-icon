@@ -33,6 +33,8 @@ If you want to play a xCloud title instead of Console streaming, you can use the
 When you first launch the nro it will check to see if there is a token.dat file stored on the sd card (/switch/libnxbox/token.dat). If there is no such file. It will promt you to sign-in
 ![Screenshot](./AUTHWINDOW.png)
 
+When the token.dat file is created, it will use this to refresh MSAL tokens going forward. So unless you delete the file or the stored token becomes invalid, you wont see this screen again.
+
 ## Architecture
 
 ```
