@@ -24,6 +24,7 @@ If you want to play a xCloud title instead of Console streaming, you can use the
 ## Troubleshooting
 
 * xCloud title takes a little longer to load than console streaming. A little under a minute, is what I've seen while testing
+* Console streaming was the main goal from the start, full xCloud was an easy target after WebRTC was achieved. So it's less tested than console streaming, and might be more unstable
 * If you want to connect to your console outside of LAN and struggle to conneect, make sure that you can access your console on UDP port 9002 (port forwarding)
 * libnxbox.nro will create a debug.log file. So if anything goes haywire, the log might have a clue.
 
