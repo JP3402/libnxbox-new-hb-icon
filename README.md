@@ -6,7 +6,7 @@
 ![Language](https://img.shields.io/badge/language-C99-blue)
 ![License](https://img.shields.io/badge/status-alpha-orange)
 
-## Overview
+Grab the libnxbox.nro under releases
 
 ## Important!
 Needs to run in title mode, will crash with applet mode.
