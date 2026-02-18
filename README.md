@@ -17,9 +17,9 @@ I have not tested what happends if you have more than one Xbox connected to your
 
 If you want to play a xCloud title instead of Console streaming, you can use the NRO forwarder for the moonlight switch port.
 
-Game Title - Will be the name of the NRO forwarder
-Host IP - I just treat this as a dummy value to maintain compatibility with the moonlight nro forwarder. So just set 127.0.0.1 or some other iP addr.
-AppID - this is where we select the xCloud title. So for example Kingdom Come: Deliverance, enter KINGDOMCOMEDELIVERANCE - Not sure what the best way to get this from. I used dev tools to find the request when starting the title from xbox.com/play
+- Game Title - Will be the name of the NRO forwarder
+- Host IP - I just treat this as a dummy value to maintain compatibility with the moonlight nro forwarder. So just set 127.0.0.1 or some other iP addr.
+- AppID - this is where we select the xCloud title. So for example Kingdom Come: Deliverance, enter KINGDOMCOMEDELIVERANCE - Not sure what the best way to get this from. I used dev tools to find the request when starting the title from xbox.com/play
 
 
 ## Architecture
