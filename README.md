@@ -91,7 +91,7 @@ Audio
 
 This application is **unofficial homebrew software** and is **not affiliated with, endorsed by, or supported by Nintendo Co., Ltd., Microsoft Corporation, Xbox, or any of their subsidiaries or partners**.
 
-Nintendo, Nintendo Switch, Wii, Wii U, Microsoft, Xbox, and all related names, logos, and trademarks are the property of their respective owners and are used here for identification purposes only.
+Nintendo, Nintendo Switch, Microsoft, Xbox, and all related names, logos, and trademarks are the property of their respective owners and are used here for identification purposes only.
 
 This software is provided **“as is”**, without warranty of any kind, express or implied. The authors are not responsible for any damage, data loss, system instability, or other issues that may result from the use or misuse of this application.
 
