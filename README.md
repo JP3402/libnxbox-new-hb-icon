@@ -31,7 +31,7 @@ If you want to play a xCloud title instead of Console streaming, you can use the
 ## Authentication
 
 When you first launch the nro it will check to see if there is a token.dat file stored on the sd card (/switch/libnxbox/token.dat). If there is no such file. It will promt you to sign-in
-![Screenshot](./architecture.png)
+![Screenshot](./AUTHWINDOW.png)
 
 ## Architecture
 
