@@ -18,8 +18,13 @@ I have not tested what happends if you have more than one Xbox connected to your
 If you want to play a xCloud title instead of Console streaming, you can use the NRO forwarder for the moonlight switch port: https://nsp-forwarder.vercel.app/moonlight
 
 - Game Title - Will be the name of the NRO forwarder
-- Host IP - I just treat this as a dummy value to maintain compatibility with the moonlight nro forwarder. So just set 127.0.0.1 or some other iP addr.
+- Host IP - I just treat this as a dummy value to maintain compatibility with the moonlight nro forwarder. So just set 127.0.0.1 or some other IP addr.
 - AppID - this is where we select the xCloud title. So for example Kingdom Come: Deliverance, enter KINGDOMCOMEDELIVERANCE - Not sure what the best way to get this from. I used dev tools to find the request when starting the title from xbox.com/play
+
+Example of an NRO forwarder:
+![Screenshot](./NRO_EX.png)
+
+Install the .NSP file and once you launch the game on the switch, that xCloud title should be launched. (xCloud title takes a little longer to launch in my experience, about 50 sec.)
 
 ## Troubleshooting
 
