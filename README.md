@@ -15,7 +15,7 @@ Once that is done, it will use the same logic as xbox.com/play to discover you X
 
 I have not tested what happends if you have more than one Xbox connected to your user. Not sure what will happend :) (The world won't burn, but we might struggle to choose the right xbox and stall the connect)
 
-If you want to play a xCloud title instead of Console streaming, you can use the NRO forwarder for the moonlight switch port.
+If you want to play a xCloud title instead of Console streaming, you can use the NRO forwarder for the moonlight switch port: https://nsp-forwarder.vercel.app/moonlight
 
 - Game Title - Will be the name of the NRO forwarder
 - Host IP - I just treat this as a dummy value to maintain compatibility with the moonlight nro forwarder. So just set 127.0.0.1 or some other iP addr.
