@@ -77,17 +77,17 @@ Face buttons are mapped by **physical position** (not label), so the right-side 
 | + (short press) | Menu/Start | < 500 ms hold |
 | + (long press) | Nexus/Guide | ≥ 500 ms hold |
 
-# Analog Sticks
+### Analog Sticks
 
 - Range: −32768 to 32767 (matches Xbox format)
 - Deadzone: ±2000 (values within deadzone snap to 0)
 - Y-axis convention: up = positive (same on both platforms)
 
-# Triggers
+### Triggers
 
 The Switch has digital ZL/ZR buttons (no analog travel). They are mapped as fully pressed (65535) or released (0).
 
-# Rumble 
+### Rumble 
 
 Work in progress
 
