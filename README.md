@@ -38,10 +38,11 @@ So might be that it's all caps and all special characters stripped. So Assassin'
 
 But the only way of knowing is to launch a title from xbox.com/play with dev-tools open, with HAR checked. Look at the network tab and look for the titleId there
 
+![Screenshot](./DEVTOOLS.png)
+
+## Thumbnail for Game art
 I have added a .paint template to this repo. If you want to make Icon like the one in the nro forwarder screenshot.
 Just grab a square gameart from xbox.com/play, resize it to 242x242. Create a new layor below the gamepass layor in paint and press File->Import to Canvas. Save as .jpg
-
-![Screenshot](./DEVTOOLS.png)
 
 ## Troubleshooting
 
